@@ -1,0 +1,15 @@
+div {
+    color: red;
+}
+
+h1 {
+    background-color: blue;
+}
+
+.cursive {
+    font-style: italic;
+}
+
+.bold {
+    font-weight: bold;
+}
