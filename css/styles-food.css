@@ -1,0 +1,16 @@
+.container {
+    padding-left: 92px;
+    padding-right: 92px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 72px;
+    border-bottom: 1px solid #D4D7E6;
+}
+
+.header-right {
+    display: flex;
+}

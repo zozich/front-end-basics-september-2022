@@ -13,3 +13,55 @@ h1 {
 .bold {
     font-weight: bold;
 }
+
+/* margin - зовнішній відступ */
+/* padding - внутрішній відступ */
+/* border - границі */
+
+/*Одиниці виміру:*/
+/* - px */
+/* - % */
+/* - 1 em = розмір шрифта батьківського елемента */
+/* - 1 rem = 16px */
+/* - vh */
+/* - vw */
+
+.test-heading {
+    /*margin: 40px;*/
+    /*margin-top: 20px;*/
+    /*margin-bottom: 40px;*/
+    /*margin-left: 10px;*/
+    /*margin-right: 10px;*/
+    /*margin: 20px 10px 40px 10px;*/
+    margin: 20px 10px 40px;
+    /*padding: 40px;*/
+    padding-left:  40px;
+    padding-right: 40px;
+    /*border: 5px solid black;*/
+    border-bottom: 5px solid black;
+    background-color: lightcyan;
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+/* Властивості шрифта: */
+/* - font-size */
+/* - font-weight | 100-900 | */
+/* - font-style */
+
+/* Flexbox: */
+/* - display: flex; */
+/* - align-items - вертикальне вирівнювання */
+/* - justify-content - горизонтальне вирівнювання */
+
+.articles {
+    display: flex;
+    align-items: center;
+}
+
+.links {
+    display: flex;
+    justify-content: space-between;
+    /*justify-content: space-around;*/
+}
