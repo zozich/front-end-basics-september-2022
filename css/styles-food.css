@@ -1,3 +1,7 @@
+body {
+    color: #3F4255;
+}
+
 .container {
     padding-left: 92px;
     padding-right: 92px;
@@ -13,4 +17,136 @@
 
 .header-right {
     display: flex;
+    align-items: center;
+    color: #9093A6;
+    gap: 48px;
+}
+
+.menu-icon {
+    box-shadow: 0px 8px 40px rgba(0, 0, 0, 0.08);
+    border-radius: 25px;
+}
+
+.header-item {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.main {
+    background-image: url("../img/background.png");
+    background-repeat: no-repeat;
+    /*background-size: cover;*/
+    background-size: contain;
+    background-position: right center;
+}
+
+.main-title {
+    max-width: 460px;
+    padding-top: 120px;
+    margin-bottom: 92px;
+    font-weight: 300;
+    font-size: 58px;
+    line-height: 64px;
+    letter-spacing: 0.05em;
+}
+
+.tags {
+    display: flex;
+    gap: 24px;
+    margin-bottom: 276px;
+}
+
+.tag {
+    padding: 18px 24px;
+    border: 2px solid #FFE145;
+    border-radius: 4px;
+    text-align: center;
+}
+
+.tag-name {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.5px;
+}
+
+.tag-details {
+    font-size: 12px;
+}
+
+.info {
+    display: flex;
+    gap: 40px;
+    max-width: 700px;
+    box-shadow: 0px 8px 40px rgba(0, 0, 0, 0.08);
+    padding: 28px 0 28px 92px;
+    border-radius: 4px;
+    background-color: white;
+}
+
+.info-item {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.restaurants {
+    padding-bottom: 72px;
+}
+
+.section-title {
+    margin: 48px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 300;
+    font-size: 36px;
+    line-height: 64px;
+    letter-spacing: 0.08em;
+    color: #3F4255;
+}
+
+.restaurant {
+    /*width: 296px;*/
+    box-shadow: 0px 2px 16px rgba(60, 62, 74, 0.08);
+    border-radius: 4px;
+    text-align: center;
+}
+
+.show-all {
+    padding: 14px 24px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.5px;
+    color: #9093A6;
+    border: none;
+    background: #F2F4FA;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+.show-all:hover {
+    background-color: #727588;
+    color: white;
+}
+
+.restaurant-logo {
+    padding: 16px 0;
+    text-align: center;
+}
+
+.restaurant-logo img {
+    margin: 0 auto;
+}
+
+.restaurant-image {
+    width: 100%;
+    object-fit: cover;
+}
+
+.slick-next {
+    background-color: gray;
 }

@@ -5,6 +5,12 @@
     <title>Title</title>
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/styles-food.css">
+
+    <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+
+    <script src="js/jquery-3.6.1.min.js"></script>
+    <script type="text/javascript" src="slick/slick.min.js"></script>
 </head>
 <body>
 <div class="header container">
@@ -12,20 +18,98 @@
         <img src="img/logo.png">
     </div>
     <div class="header-right">
-        <a>
+        <a class="header-item">
 <!--            <img src="img/icons/user.jpg">-->
 <!--            <img src="img/icons/user.png">-->
             <img src="img/icons/user.svg">
             <span>Log in</span>
         </a>
-        <a>
+        <a class="header-item">
             <img src="img/icons/cart.svg">
             <span>0</span>
         </a>
-<!--        <img src="img/menu.png">-->
+        <img class="menu-icon" src="img/icons/menu.png">
     </div>
 </div>
-<div class="main">Main</div>
-<div class="restaurants container">Restaurants</div>
+<div class="main">
+    <div class="container">
+        <h1 class="main-title">Your Food court at home</h1>
+        <div class="tags">
+            <div class="tag">
+                <div class="tag-name">Delivery</div>
+                <div class="tag-details">Order in</div>
+            </div>
+            <div class="tag">
+                <div class="tag-name">Takeout</div>
+                <div class="tag-details">Grab and go</div>
+            </div>
+        </div>
+    </div>
+    <div class="info">
+        <div class="info-item">
+            <div class="info-item-icon">
+                <img src="img/icons/time-eat.png">
+            </div>
+            <div class="info-item-text">
+                delivery in all paris in less than 30 minutes
+            </div>
+        </div>
+        <div class="info-item">
+            <div class="info-item-icon">
+                <img src="img/icons/delivery.png">
+            </div>
+            <div class="info-item-text">
+                Free delivery from 29 euros
+            </div>
+        </div>
+        <div class="info-item">
+            <div class="info-item-icon">
+                <img src="img/icons/paris.png">
+            </div>
+            <div class="info-item-text">
+                Only fresh and French products
+            </div>
+        </div>
+    </div>
+</div>
+<div class="restaurants container">
+    <div class="section-title">
+        <div>Restaurants</div>
+        <button class="show-all">show all</button>
+    </div>
+    <div class="slider">
+        <div class="restaurant">
+            <img src="img/restaurants/rest1.jpg">
+            <div class="restaurant-logo">
+                <img src="img/restaurants/rest1_logo.jpg">
+            </div>
+        </div>
+        <div class="restaurant">
+            <img class="restaurant-image" src="img/restaurants/rest2.jpg">
+            <div class="restaurant-logo">
+                <img src="img/restaurants/rest2_logo.jpg">
+            </div>
+        </div>
+        <div class="restaurant">
+            <img class="restaurant-image" src="img/restaurants/rest3.jpg">
+            <div class="restaurant-logo">
+                <img src="img/restaurants/rest3_logo.jpg">
+            </div>
+        </div>
+        <div class="restaurant">
+            <img class="restaurant-image" src="img/restaurants/rest4.jpg">
+            <div class="restaurant-logo">
+                <img src="img/restaurants/rest4_logo.jpg">
+            </div>
+        </div>
+        <div class="restaurant">
+            <img class="restaurant-image" src="img/restaurants/rest3.jpg">
+            <div class="restaurant-logo">
+                <img src="img/restaurants/rest3_logo.jpg">
+            </div>
+        </div>
+    </div>
+</div>
+<script src="js/script.js"></script>
 </body>
 </html>
